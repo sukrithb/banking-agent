@@ -1,0 +1,18 @@
+# API Keys and Secrets (CRITICAL)
+.env
+
+# Python environment and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# LangGraph / SQLite checkpoints (if you use local DBs)
+*.sqlite
